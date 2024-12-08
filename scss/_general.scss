@@ -1,0 +1,24 @@
+$color_fondo: #f9f7f8;
+$color_texto: #242321;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $color_fondo;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 40px;
+    margin: 40px;
+    text-align: justify;
+}
+
+.index{
+    background-image: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

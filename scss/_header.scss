@@ -1,0 +1,22 @@
+.header_total{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -40px;
+    padding-bottom: 40px;
+    nav{
+        div{
+            .logo{
+                width: 100px;
+            }
+            div{
+                ul{
+                    li{
+                        .active{
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.footer_index{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 190px;
+    a{
+        text-decoration: none;
+        img{
+            width: 50px;
+        }
+    }
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    a{
+        text-decoration: none;
+        img{
+            width: 50px;
+        }
+    }
+}

@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f7f8;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 40px;
+  margin: 40px;
+  text-align: justify;
+}
+
+.index {
+  background-image: url(../img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_total {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -40px;
+  padding-bottom: 40px;
+}
+.header_total nav div .logo {
+  width: 100px;
+}
+.header_total nav div div ul li .active {
+  font-weight: 700;
+}
+
+.main_index section div .logoc {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.proyectos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.proy {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.proy img {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+.proy img:hover {
+  transform: translateY(-10px);
+}
+.proy .texto {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #242321;
+  color: #f9f7f8;
+  padding: 10px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+.proy:hover .texto {
+  opacity: 1;
+  transform: translateY(-10px);
+}
+
+.servicios {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 40px;
+}
+.servicios section div h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.servicios section div h2 p {
+  padding-bottom: 20px;
+}
+
+.main_estudio {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_estudio .estudio h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.main_estudio .estudio h2 p {
+  padding-bottom: 50px;
+}
+
+.main_contacto .formulario form {
+  display: grid;
+  padding-bottom: 40px;
+  width: 50%;
+}
+.main_contacto .datos h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-bottom: 10px;
+}
+.main_contacto .datos h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 10px;
+}
+
+.footer_index {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 190px;
+}
+.footer_index a {
+  text-decoration: none;
+}
+.footer_index a img {
+  width: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+footer a {
+  text-decoration: none;
+}
+footer a img {
+  width: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .servicios {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+  .estudio {
+    width: 50%;
+  }
+  .main_contacto .formulario form {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .servicios {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+  .logo {
+    width: 75px;
+  }
+  .estudio {
+    width: 50%;
+  }
+  .proyectos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .index {
+    background-image: url(../img/fondo1rr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .logoc {
+    width: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .main_contacto .formulario form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .servicios {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+  .logo {
+    width: 50px;
+  }
+  .redes {
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+  .estudio {
+    width: 100%;
+  }
+  .proyectos {
+    grid-template-columns: 1fr;
+  }
+  .index {
+    background-image: url(../img/fondo1rr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .logoc {
+    width: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .main_contacto .formulario form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .servicios {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+  .logo {
+    width: 50px;
+  }
+  .redes {
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+  .estudio {
+    width: 100%;
+  }
+  .proyectos {
+    grid-template-columns: 1fr;
+  }
+  .index {
+    background-image: url(../img/fondo1r.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .logoc {
+    width: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .main_contacto .formulario form {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

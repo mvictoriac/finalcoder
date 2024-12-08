@@ -1,0 +1,116 @@
+@media screen and (max-width:1024px){
+    .servicios{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .estudio{
+        width: 50%;
+    }  
+    .main_contacto .formulario form {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .servicios{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .logo{
+        width: 75px;
+    }
+    .estudio{
+        width: 50%;
+    }
+    .proyectos{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .index{
+        background-image: url(../img/fondo1rr.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logoc{
+        width: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .main_contacto .formulario form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .servicios{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .logo{
+        width: 50px;
+    }
+    .redes{
+        width: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    .estudio{
+        width: 100%;
+    }
+    .proyectos{
+        grid-template-columns: 1fr;
+    }
+    .index{
+        background-image: url(../img/fondo1rr.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logoc{
+        width: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .main_contacto .formulario form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .servicios{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .logo{
+        width: 50px;
+    }
+    .redes{
+        width: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    .estudio{
+        width: 100%;
+    }
+    .proyectos{
+        grid-template-columns: 1fr;
+    }
+    .index{
+        background-image: url(../img/fondo1r.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logoc{
+        width: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .main_contacto .formulario form {
+        width: 100%;
+    }   
+}

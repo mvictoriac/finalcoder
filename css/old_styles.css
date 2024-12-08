@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f7f8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 40px;
+    margin: 40px;
+    text-align: justify;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+h6{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+p{
+    padding-bottom: 20px;
+}
+
+.estudio{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 35%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.footer_index{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+footer .redes img {
+    width: 50px;
+}
+  
+.logoa{
+    width: 100px;
+}
+.logo{
+    width: 100px;
+}
+.logoc{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.active{
+    font-weight: 700;
+}
+
+form{
+    display: grid;
+    padding-bottom: 40px;
+    width: 50%;
+}
+
+.proy{
+    width: 320px;
+    padding-bottom: 25px;
+}
+.proyectos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.index{
+    background-image: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: #242321;
+}
+.barra{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -40px;
+    padding-bottom: 40px;
+}
+.servicios{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 40px;
+}
+
+@media screen and (max-width:1024px){
+    .servicios{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .estudio{
+        width: 40%;
+    }  
+}
+
+@media screen and (max-width:768px){
+    .servicios{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .logo{
+        width: 75px;
+    }
+    .estudio{
+        width: 50%;
+    }
+    .proy{
+        width: 50vw;
+    }
+    .index{
+        background-image: url(../img/fondo1rr.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logoc{
+        width: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:600px){
+    .servicios{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .logo{
+        width: 50px;
+    }
+    .redes{
+        width: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    .estudio{
+        width: 100%;
+    }
+    .proy{
+        width: 100vw;
+    }
+    .index{
+        background-image: url(../img/fondo1rr.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logoc{
+        width: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    }
+
+@media screen and (max-width:480px){
+    .servicios{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .logo{
+        width: 50px;
+    }
+    .redes{
+        width: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    .estudio{
+        width: 100%;
+    }
+    .proy{
+        width: 100vw;
+    }
+    .index{
+        background-image: url(../img/fondo1r.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logoc{
+        width: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+   
+}
