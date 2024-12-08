@@ -169,7 +169,7 @@ footer a img {
     grid-template-rows: auto;
     gap: 20px;
   }
-  .estudio {
+  .main_estudio .estudio {
     width: 80%;
   }
   .main_contacto .formulario form {
@@ -185,7 +185,7 @@ footer a img {
   .logo {
     width: 75px;
   }
-  .estudio {
+  .main_estudio .estudio {
     width: 100%;
   }
   .proyectos {
@@ -220,7 +220,7 @@ footer a img {
     display: flex;
     flex-direction: row;
   }
-  .estudio {
+  .main_estudio .estudio {
     width: 100%;
   }
   .proyectos {
@@ -255,7 +255,7 @@ footer a img {
     display: flex;
     flex-direction: row;
   }
-  .estudio {
+  .main_estudio .estudio {
     width: 100%;
   }
   .proyectos {
