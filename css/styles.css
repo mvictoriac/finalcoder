@@ -101,7 +101,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  width: 50%;
+  }
 .main_estudio .estudio h2 {
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -165,7 +166,7 @@ footer a img {
     gap: 20px;
   }
   .estudio {
-    width: 50%;
+    width: 80%;
   }
   .main_contacto .formulario form {
     width: 80%;
@@ -181,7 +182,7 @@ footer a img {
     width: 75px;
   }
   .estudio {
-    width: 50%;
+    width: 100%;
   }
   .proyectos {
     grid-template-columns: repeat(2, 1fr);
